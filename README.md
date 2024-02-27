@@ -147,4 +147,5 @@ git clone -b <branchname> <remote-repo-url>
 4. Hacemos el push a la rama main
 ``git push origin main``
 
-##### Lo que hicimos acá es dejar todo exactamente como estaba en dev-branch pero lo aplicamos en la branch main
+##### Lo que hicimos acá es dejar todo exactamente como estaba en dev-branch
+##### Pero lo aplicamos en la branch main
