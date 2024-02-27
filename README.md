@@ -13,8 +13,6 @@
 #### [GIT MERGE](#git-merge)
 - Fusionar branches
 
-----------
-
 
 ## <span style="color:yellow"> GIT CONFIG </span>
 ##### Ver configuración global
@@ -33,7 +31,7 @@
 2. ``git push -u origin <nombre-de-tu-rama>``
 ##### El -u establece la rama remota como la rama de seguimiento (tracking branch), lo que simplifica los futuros comandos git push.
 
- ---------- 
+
 ## <span style="color:yellow">GIT CLONE
 ##### El más básico del git clone, para clonar un repositorio.
 ``
@@ -51,7 +49,7 @@ git clone -b <branchname> <remote-repo-url>
 ``
 ##### En el ejemplo anterior se clonaria solamente la branch <branchname> de repositorio. 
 
- ---------- 
+
 
 ## <span style="color:yellow">GIT LOG
 
@@ -71,7 +69,6 @@ git clone -b <branchname> <remote-repo-url>
 ##### Tu también puedes formatear la visualización de las informaciones del commit con el comando:
 ``git log --pretty="format:%h %s"``
  
- ---------- 
 
 ## <span style="color:yellow">GIT ADD
 ### Orden para subir un archivo en GitHub:
@@ -106,7 +103,6 @@ git clone -b <branchname> <remote-repo-url>
 ##### Podemos usar también para devolver todos los archivos del último commit.
 ``git restore . ``
  
- ---------- 
 
 ## <span style="color:yellow">GIT BRANCH
 ##### Vemos las ramas existentes
@@ -139,7 +135,6 @@ git clone -b <branchname> <remote-repo-url>
 ##### Y después usamos para cambiar a la siguiente rama de la lista 
 ``git switch <nombre-de-la-rama>``
 
----------- 
 ## <span style="color:yellow">GIT MERGE
 
 ##### Tenemos dos branch (main y dev-branch)
