@@ -14,7 +14,7 @@
 - Fusionar branches
 
 
-## <span style="color:yellow"> GIT CONFIG </span>
+## GIT CONFIG </span>
 ##### Ver configuración global
 ``git config --global -e ``
 ##### Designar tu usuario de github
@@ -22,7 +22,7 @@
 ##### Designar tu correo de github
 ``git config --global user.email "tu-correo@mi-correo.com"``
 
-## <span style="color:yellow">GIT INIT
+## GIT INIT
 ##### Inicializar nuestro repositorio
 ``git init``
 
@@ -32,7 +32,7 @@
 ##### El -u establece la rama remota como la rama de seguimiento (tracking branch), lo que simplifica los futuros comandos git push.
 
 
-## <span style="color:yellow">GIT CLONE
+## GIT CLONE
 ##### El más básico del git clone, para clonar un repositorio.
 ``
 git clone <repo-url>
@@ -51,7 +51,7 @@ git clone -b <branchname> <remote-repo-url>
 
 
 
-## <span style="color:yellow">GIT LOG
+## GIT LOG
 
 ##### Podemos visualizar todos los commits, uno en cada línea con el comando:
 ``git log –oneline``
@@ -70,7 +70,7 @@ git clone -b <branchname> <remote-repo-url>
 ``git log --pretty="format:%h %s"``
  
 
-## <span style="color:yellow">GIT ADD
+## GIT ADD
 ### Orden para subir un archivo en GitHub:
 
 ##### Subir solo un archivo en éste caso 'index.html'.
@@ -88,9 +88,9 @@ git clone -b <branchname> <remote-repo-url>
 ##### Podemos también hacer un PUSH a otra BRANCH
 ``git push origin <new-branch>``
 
-<span style="color:red; font-size: 15px; font-weight: bold;">  TIP: Puede existir o no la new-branch. Ya que la creara.
+###### TIP: Puede existir o no la new-branch. Ya que la creara.
  
-##### PODEMOS USAR 
+#### PODEMOS USAR 
 ##### Para ver si los archivos se subieron (color verde)
 `` git status ``
 
@@ -104,7 +104,7 @@ git clone -b <branchname> <remote-repo-url>
 ``git restore . ``
  
 
-## <span style="color:yellow">GIT BRANCH
+## GIT BRANCH
 ##### Vemos las ramas existentes
 ``git branch``
 
@@ -135,7 +135,7 @@ git clone -b <branchname> <remote-repo-url>
 ##### Y después usamos para cambiar a la siguiente rama de la lista 
 ``git switch <nombre-de-la-rama>``
 
-## <span style="color:yellow">GIT MERGE
+## GIT MERGE
 
 ##### Tenemos dos branch (main y dev-branch)
 1. Como primer instancia switcheamos a la branch main
@@ -147,5 +147,4 @@ git clone -b <branchname> <remote-repo-url>
 4. Hacemos el push a la rama main
 ``git push origin main``
 
-##### Lo que hicimos acá es dejar todo exactamente como estaba en dev-branch
-##### Pero lo aplicamos en la branch main
+##### Lo que hicimos acá es dejar todo exactamente como estaba en dev-branch pero lo aplicamos en la branch main
